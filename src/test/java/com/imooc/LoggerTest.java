@@ -15,5 +15,7 @@ public class LoggerTest {
     @Test
     public void test1(){
         logger.info("aaaaa");
+        logger.debug("bbbbb");
+        logger.error("ccccc");
     }
 }

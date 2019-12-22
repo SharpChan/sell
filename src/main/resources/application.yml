@@ -6,4 +6,19 @@ spring:
     url: jdbc:mysql://172.20.10.9:3306/mysql?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
   jackson:
     default-property-inclusion: non_null
+  jpa:
+    show-sql: true
+server:
+  servlet:
+    context-path: /sell
+#logging:
+#  file:
+#    path: C:/myLogs
+#  level:
+ #     root: debug
+ # pattern:
+ #     console: "%d - %msg%n"
+
+
+
 
